@@ -63,7 +63,7 @@
 .ocean-life {
   background-image: url(images/ocean.jpg);
   width: 1300px;
-  height: 1100px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -71,10 +71,11 @@
   position: relative;
 }
 .nemo {
-  width: 150px;
+  width: 250px;
   position: absolute;
+  top: 0px;
   left: 0px;
-  animation: nemo 25s infinite 1s ease-in;
+  animation: nemo 20s infinite 1s ease-in;
 }
 @keyframes nemo {
   from {
@@ -82,5 +83,65 @@
   }
   to {
     left: 1190px;
+  }
+}
+.octopus-class{
+  width: 150px;
+  position: absolute;
+  bottom: 250px;
+  left: 250px;
+  animation: octopus 2s  1s ease-in  infinite alternate
+}
+@keyframes octopus{
+  from{
+  bottom: 250px;
+  }
+  to{
+    bottom: 300px;
+  }
+}
+.turtle-class{
+  width: 280px;
+  position: absolute;
+  bottom: 40px;
+  animation: turtle 30s infinite ease-in 1s;
+}
+@keyframes turtle{
+  from{
+    left: 0px;
+  }
+  to{
+    left: 1100px;
+  }
+}
+.fish-class{
+  width: 200px;
+  position: absolute;
+  top: 170px;
+  right: 0px;
+  animation: fish 25s infinite ease-in 1s;
+}
+@keyframes fish{
+  from{
+    right: 0px;
+  }
+  to{
+    right: 1100px;
+  }
+}
+
+.horsefish{
+  width: 300px;
+  position: absolute;
+  bottom: 230px;
+  right: 0px;
+  animation: horsefish 3s infinite ease-in alternate 1s;
+}
+@keyframes horsefish{
+  from{
+    bottom: 230px;
+  }
+  to{
+    bottom: 100px;
   }
 }
