@@ -1,8 +1,10 @@
+/*პირველი სექცია*/
 .sea-class {
   width: 1300px;
   height: 800px;
   background-image: url(images/pexels-asadphoto-457882.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
   position: relative;
 }
@@ -11,7 +13,7 @@
   left: 350px;
   bottom: 275px;
   width: 100px;
-  animation: ship 30s ease-in infinite 2s alternate;
+  animation: ship 30s ease-in infinite 2s;
 }
 
 @keyframes ship {
@@ -25,7 +27,6 @@
 .ship-section {
   margin-bottom: 100px;
 }
-
 /*მეორე სექცია*/
 
 .moon-box {
@@ -33,24 +34,53 @@
   width: 1300px;
   height: 800px;
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
   position: relative;
 }
 .moon {
   width: 70px;
   position: absolute;
-  left:200px
+  left: 200px;
   bottom: 600px;
-  animation: moon 40s ease-in infinite 1s alternate;
+  animation: moon 30s ease-in infinite 1s;
+}
+@keyframes moon {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 360px;
+    left: 510px;
+  }
+}
+.moonset {
+  margin-bottom: 100px;
 }
 
-@keyframes moon{
-from{
-  top:0px;
-  left:0px;
+/*მესამე სექცია*/
+.ocean-life {
+  background-image: url(images/ocean.jpg);
+  width: 1300px;
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-position: center;
+  position: relative;
 }
-to{
- top:360px;
- left: 510px;
+.nemo {
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  animation: nemo 25s infinite 1s ease-in;
 }
+@keyframes nemo {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1190px;
+  }
 }
