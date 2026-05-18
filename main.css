@@ -13,7 +13,7 @@
   left: 350px;
   bottom: 275px;
   width: 100px;
-  animation: ship 30s ease-in infinite 2s;
+  animation: ship 40s ease-in infinite 2s;
 }
 
 @keyframes ship {
@@ -42,8 +42,8 @@
   width: 70px;
   position: absolute;
   left: 200px;
-  bottom: 600px;
-  animation: moon 30s ease-in infinite 1s;
+  bottom: 630px;
+  animation: moon 35s ease-in infinite 1s;
 }
 @keyframes moon {
   from {
@@ -51,8 +51,8 @@
     left: 0px;
   }
   to {
-    top: 360px;
-    left: 510px;
+    top: 390px;
+    left: 520px;
   }
 }
 .moonset {
@@ -75,7 +75,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  animation: nemo 20s infinite 1s ease-in;
+  animation: nemo 40s infinite 1s ease-in;
 }
 @keyframes nemo {
   from {
@@ -83,6 +83,7 @@
   }
   to {
     left: 1100px;
+
   }
 }
 .octopus-class{
@@ -104,7 +105,7 @@
   width: 280px;
   position: absolute;
   bottom: 40px;
-  animation: turtle 30s infinite ease-in 1s;
+  animation: turtle 50s infinite ease-in 1s;
 }
 @keyframes turtle{
   from{
@@ -119,7 +120,7 @@
   position: absolute;
   top: 170px;
   right: 0px;
-  animation: fish 25s infinite ease-in 1s;
+  animation: fish 35s infinite ease-in 1s;
 }
 @keyframes fish{
   from{
@@ -133,7 +134,7 @@
 .horsefish{
   width: 300px;
   position: absolute;
-  bottom: 230px;
+  bottom: 240px;
   right: 0px;
   animation: horsefish 3s infinite ease-in alternate 1s;
 }
