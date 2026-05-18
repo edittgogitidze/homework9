@@ -8,9 +8,8 @@
 }
 .ship-class {
   position: absolute;
-  right: 1000px;
-  bottom: 270px;
-  z-index: 2;
+  left: 350px;
+  bottom: 275px;
   width: 100px;
   animation: ship 30s ease-in infinite 2s alternate;
 }
