@@ -22,3 +22,35 @@
     left: 1190px;
   }
 }
+.ship-section {
+  margin-bottom: 100px;
+}
+
+/*მეორე სექცია*/
+
+.moon-box {
+  background-image: url(images/for\ moon.jpg);
+  width: 1300px;
+  height: 800px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+.moon {
+  width: 70px;
+  position: absolute;
+  left:200px
+  bottom: 600px;
+  animation: moon 40s ease-in infinite 1s alternate;
+}
+
+@keyframes moon{
+from{
+  top:0px;
+  left:0px;
+}
+to{
+ top:360px;
+ left: 510px;
+}
+}
