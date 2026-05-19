@@ -41,14 +41,12 @@
 .moon {
   width: 70px;
   position: absolute;
-  left: 200px;
-  bottom: 630px;
+  left: 0px;
   animation: moon 35s ease-in infinite 1s;
 }
 @keyframes moon {
   from {
     top: 0px;
-    left: 0px;
   }
   to {
     top: 390px;
@@ -71,7 +69,7 @@
   position: relative;
 }
 .nemo {
-  width:250px;
+  width: 250px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -83,66 +81,65 @@
   }
   to {
     left: 1100px;
-
   }
 }
-.octopus-class{
+.octopus-class {
   width: 150px;
   position: absolute;
   bottom: 250px;
   left: 250px;
-  animation: octopus 2s  1s ease-in  infinite alternate
+  animation: octopus 2s 1s ease-in infinite alternate;
 }
-@keyframes octopus{
-  from{
-  bottom: 250px;
+@keyframes octopus {
+  from {
+    bottom: 250px;
   }
-  to{
+  to {
     bottom: 300px;
   }
 }
-.turtle-class{
+.turtle-class {
   width: 280px;
   position: absolute;
   bottom: 40px;
   animation: turtle 50s infinite ease-in 1s;
 }
-@keyframes turtle{
-  from{
+@keyframes turtle {
+  from {
     left: 0px;
   }
-  to{
+  to {
     left: 1100px;
   }
 }
-.fish-class{
+.fish-class {
   width: 200px;
   position: absolute;
   top: 170px;
   right: 0px;
   animation: fish 35s infinite ease-in 1s;
 }
-@keyframes fish{
-  from{
+@keyframes fish {
+  from {
     right: 0px;
   }
-  to{
+  to {
     right: 1100px;
   }
 }
 
-.horsefish{
+.horsefish {
   width: 300px;
   position: absolute;
   bottom: 240px;
   right: 0px;
   animation: horsefish 3s infinite ease-in alternate 1s;
 }
-@keyframes horsefish{
-  from{
+@keyframes horsefish {
+  from {
     bottom: 230px;
   }
-  to{
+  to {
     bottom: 150px;
   }
 }
